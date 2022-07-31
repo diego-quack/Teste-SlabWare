@@ -7,103 +7,135 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Document</title>
 </head>
+
 <body style="background-color: #f1f1f1;">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #151515;" aria-label="Eighth navbar example">
+      <div class="container">
+          <a class="navbar-brand" href="#"> < BACK TO VERSIONS</a>
+      </div>
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #151515;" aria-label="Eighth navbar example">
-        <div class="container">
-            <a class="navbar-brand" href="#"> < BACK TO VERSIONS</a>
-        </div>
-    </nav>
+  <div class="container w-50 mt-5 py-5 px-5 text-center rounded shadow p-3 mb-5 bg-body rounded" style="background-color: #ffffff;">
+    
+    <div class="row">
+    
+        <div class="col">
+          
+          <h2 class="mb-3">Sign up for Fabricator</h2><br>
+          <h6 class="text-start mb-0">Please enter your details:</h6>
+          
+        <form class="needs-validation" novalidate="">
 
-    <div class="container" style="background-color: #ffffff;">
-      
-        <div class="row">
-        
+          <div class="row">
             <div class="col">
-              
-              <h4 class="mb-3">Sign up for Fabricator</h4>
-              
-              <form class="needs-validation" novalidate="">
-
-                <div class="row">
-                  <div class="col">
-                    <label for="firstName" class="form-label"></label>
-                    <input type="text" class="form-control" id="firstName" placeholder="* Name:" value="" required="">
-                    <div class="invalid-feedback">
-                      Valid first name is required.
-                    </div>
-                  </div>
-                </div> 
-                
-                <div class="row">
-                  <div class="col">
-                    <label for="lastName" class="form-label"></label>
-                    <input type="text" class="form-control" id="lastName" placeholder="* E-mail:" value="" required="">
-                    <div class="invalid-feedback">
-                      Valid E-mail is required.
-                    </div>
-                  </div>
-                </div>
-                  
-                <div class="row">
-                  <div class="col">
-                    <label for="username" class="form-label"></label>
-                    <div class="input-group has-validation">
-                      <input type="text" class="form-control" id="username" placeholder="* Phone:" required="">
-                    <div class="invalid-feedback">
-                        Your phone is required.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                  
-                <div class="row">
-                  <div class="col">
-                    <label for="email" class="form-label"></label>
-                    <input type="email" class="form-control" id="email" placeholder="* Company:">
-                    <div class="invalid-feedback">
-                      Please enter a valid email address for shipping updates.
-                    </div>
-                  </div>
-                </div>
-                  
-                <div class="row">
-                  <div class="col">
-                    <label for="address" class="form-label"></label>
-                    <input type="text" class="form-control" id="address" placeholder="* Login:" required="">
-                    <div class="invalid-feedback">
-                      Please enter a valid login.
-                    </div>
-                  </div>
-                </div>
-                  
-                <div class="row">
-                  <div class="col">
-                    <label for="address" class="form-label"></label>
-                    <input type="text" class="form-control" id="address" placeholder="* Password:" required="">
-                    <div class="invalid-feedback">
-                      Please enter a valid password.
-                    </div>
-                  </div>
-                </div>
-                  
-                <div class="row">
-                  <div class="col">
-                    <label for="address" class="form-label"></label>
-                    <input type="text" class="form-control" id="address" placeholder="* Temporary Website:" required="">
-                    <div class="invalid-feedback">
-                      Please enter a valid website.
-                    </div>
-                  </div>
-                </div>
-                
+              <label for="firstName" class="form-label"></label>
+              <input type="text" class="form-control" id="firstName" placeholder="* Name:" value="" required="">
+              <div class="invalid-feedback">
+                Valid first name is required.
               </div>
-            </form>
+            </div>
+          </div> 
+          
+          <div class="row">
+            <div class="col">
+              <label for="lastName" class="form-label"></label>
+              <input type="text" class="form-control" id="lastName" placeholder="* E-mail:" value="" required="">
+              <div class="invalid-feedback">
+                Valid E-mail is required.
+              </div>
+            </div>
           </div>
-        </div>
-    </div>
+            
+          <div class="row">
+            <div class="col">
+              <label for="username" class="form-label"></label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" id="username" placeholder="* Phone:" required="">
+              <div class="invalid-feedback">
+                  Your phone is required.
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col">
+              <label for="email" class="form-label"></label>
+              <input type="email" class="form-control" id="email" placeholder="* Company:">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col">
+              <label for="address" class="form-label"></label>
+              <input type="text" class="form-control" id="address" placeholder="* Login:" required="">
+              <div class="invalid-feedback">
+                Please enter a valid login.
+              </div>
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col">
+              <label for="address" class="form-label"></label>
+              <input type="text" class="form-control" id="address" placeholder="* Password:" required="">
+              <div class="invalid-feedback">
+                Please enter a valid password.
+              </div>
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col">
+              <label for="address" class="form-label"></label>
+              <input type="text" class="form-control" id="address" placeholder="* Temporary Website:" required="">
+              <div class="invalid-feedback">
+                Please enter a valid website.
+              </div>
+            </div>
+          </div>
 
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+          <div class="row row-cols-1 row-cols-md-3 g-3 py-4">
+
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
