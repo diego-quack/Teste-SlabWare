@@ -14,3 +14,10 @@ h3, li, #nav-item {
     font-size: small;
     color: #86868B;
 }
+
+.btn {
+    background-color: #FFAF1F;
+    border-color: #151515;
+    color: #151515;
+    border-radius: 20px;
+}
