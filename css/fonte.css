@@ -3,3 +3,14 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+h4 {
+    font-size: medium;
+    font-weight: 700;
+    color: #86868B;
+}
+
+h3, li, #nav-item {
+    font-size: small;
+    color: #86868B;
+}
