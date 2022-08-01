@@ -15,6 +15,14 @@ h3, li, #nav-item {
     color: #86868B;
 }
 
+h2{
+    font-weight: 700;
+}
+
+h7 {
+    font-size: small;
+}
+
 .btn {
     background-color: #FFAF1F;
     border-color: #151515;
